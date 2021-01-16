@@ -1,7 +1,5 @@
-from pygame.locals import *
-import pygame
-import game
+import menu
 
-# print("main...")
-theApp = game.Game()
-theApp.on_execute()
+
+menuApp = menu
+menu.on_execute()
